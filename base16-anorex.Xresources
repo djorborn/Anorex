@@ -1,0 +1,55 @@
+! Anorex
+
+#define base00 #23262E
+#define base01 #00E8C6
+#define base02 #96E072
+#define base03 #C74DED
+#define base04 #7CB7FF
+#define base05 #FFE66D
+#define base06 #EE5D43
+#define base07 #D5CED9
+#define base08 #43464E
+#define base09 #30f8f6
+#define base0A #c6ffa2
+#define base0B #f77DfD
+#define base0C #aCe7FF 
+#define base0D #FFf68D
+#define base0E #ff7D63
+#define base0F #f5eEe9
+
+
+!*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+*cursorColor2: base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
