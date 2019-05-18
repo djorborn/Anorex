@@ -1,0 +1,77 @@
+# Colors (Tomorrow Night Bright)
+colors:
+  # Default colors
+  primary:
+    background: '0x23262E'
+    foreground: '0xD5CED9'
+
+    # Bright and dim foreground colors
+    #
+    # The dimmed foreground color is calculated automatically if it is not present.
+    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
+    # is `false`, the normal foreground color will be used.
+    #dim_foreground: '0x9a9a9a'
+    #bright_foreground: '0xffffff'
+
+  # Cursor colors
+  #
+  # Colors which should be used to draw the terminal cursor. If these are unset,
+  # the cursor color will be the inverse of the cell color.
+  #cursor:
+  #  text: '0x000000'
+  #  cursor: '0xffffff'
+  
+  # Selection colors
+  #
+  # Colors which should be used to draw the selection area. If selection 
+  # background is unset, selection color will be the inverse of the cell colors. 
+  # If only text is unset the cell text color will remain the same.
+  #selection:
+  #  text: '0xeaeaea'
+  #  background: '0x404040'
+
+  # Normal colors
+  normal:
+    black:   '0x23262E'
+    red:     '0xEE5D43'
+    green:   '0x96E072'
+    yellow:  '0xFFE66D'
+    blue:    '0x7CB7FF'
+    magenta: '0xC74DED'
+    cyan:    '0x00E8C6'
+    white:   '0xD5CED9'
+
+  # Bright colors
+  bright:
+    black:   '0x43464E'
+    red:     '0xFF7D63'
+    green:   '0xC6FFA2'
+    yellow:  '0xFFF68D'
+    blue:    '0xACE7FF'
+    magenta: '0xF77DFD'
+    cyan:    '0x30F8F6'
+    white:   '0xf5eEe9'
+
+  # Dim colors
+  #
+  # If the dim colors are not set, they will be calculated automatically based
+  # on the `normal` colors.
+  #dim:
+  #  black:   '0x000000'
+  #  red:     '0x8c3336'
+  #  green:   '0x7a8530'
+  #  yellow:  '0x97822e'
+  #  blue:    '0x506d8f'
+  #  magenta: '0x80638e'
+  #  cyan:    '0x497e7a'
+  #  white:   '0x9a9a9a'
+
+  # Indexed Colors
+  #
+  # The indexed colors include all colors from 16 to 256.
+  # When these are not set, they're filled with sensible defaults.
+  #
+  # Example:
+  #   `- { index: 16, color: '0xff00ff' }`
+  #
+  indexed_colors: []
